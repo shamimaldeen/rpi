@@ -73,11 +73,11 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="rate_type" class="col-sm-2 col-form-div"><?php echo display('rate_type') ?></label>
+                        <label for="rate_type" class="col-sm-2 col-form-div"><?php echo display('rate_type') ?> <i class="text-danger">*</i></label>
                         <div class="col-sm-4">
                           <select name="rate_type" class="form-control">
                               <option value="">Select type</option>
-                              <option value="1"><?php echo display('hourly')?></option>
+<!--                              <option value="1">--><?php //echo display('hourly')?><!--</option>-->
                               <option value="2"><?php echo display('salary')?></option>
                           </select>
                         </div>

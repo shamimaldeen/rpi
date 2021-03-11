@@ -222,7 +222,6 @@ class Cpayroll extends CI_Controller {
     public function create_salary_generate() {
         $employee = $this->db->select('employee_id')->from('employee_salary_setup')->group_by('employee_id')->get()->result();
 
-
         list($month,$year) = explode(' ',$this->input->post('myDate',TRUE));
         $query =$this->db->select('*')->from('salary_sheet_generate')->where('gdate',$this->input->post('myDate',TRUE))->get()->num_rows();
 
@@ -292,7 +291,7 @@ class Cpayroll extends CI_Controller {
                 $startd    = $fdate;
                 $end       = $edate;
                 $times     = $this->db->select('SUM(TIME_TO_SEC(staytime)) AS staytime')->from('attendance')->where('date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->get()->row()->staytime;
-              
+
 
                 $wormin = ($times/60);
                 $worhour = $wormin/60;
@@ -324,13 +323,17 @@ class Cpayroll extends CI_Controller {
                     $TaxAmount = ($TotalTax/365)*$numberofdays;
                     $netAmount = $totamount-$TaxAmount;
 
+
                 }
                 else if($aAmount->sal_type == 2){
                     $netAmount = $Amount;
                 }
-                $workingper   = $this->db->select('COUNT(date) AS date')->from('attendance')->where('date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->get()->row()->date;
-               // $workingper   = $this->db->select('COUNT(status) AS status')->from('attendance')->where('date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->where("status",1 )->get()->row()->status;
+                //$workingper   = $this->db->select('COUNT(date) AS date')->from('attendance')->where('date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->get()->row()->date;
+               $workingper   = $this->db->select('COUNT(status) AS status')->from('attendance')->where('date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->where("status",1 )->get()->row()->status;
 
+                $salary_rate = ceil($netAmount/30) ;
+
+                $net_total =($salary_rate * $workingper);
 
                 $emp_info = $this->db->select('first_name,last_name')->from('employee_history')->where('id', $value->employee_id)->get()->row();
                 if (!$emp_info)
@@ -342,6 +345,7 @@ class Cpayroll extends CI_Controller {
                 $headcode = ($head) ? $head->HeadCode : null;
                 $advance = $this->db->from('salary_advance')->where('is_cut', 0)->where('taken_date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" and "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->get()->result();
 //                echo $this->db->last_query(); exit;
+
                 $adv_amount = 0;
                 if ($advance){
                     foreach ($advance as $adv){
@@ -349,7 +353,9 @@ class Cpayroll extends CI_Controller {
                     }
                     $this->db->where('is_cut', 0)->where('taken_date BETWEEN "'. date('Y-m-d', strtotime($startd)). '" AND "'. date('Y-m-d', strtotime($end)).'"')->where("employee_id" ,$value->employee_id )->update('salary_advance', array('is_cut' => 1));
                 }
-//                dd($adv_amount);
+                if ($adv_amount > 0){
+                    $net_total -= $adv_amount;
+                }
 
                 $paymentData = array(
                     'generate_id'           => $generate_id,
@@ -357,6 +363,7 @@ class Cpayroll extends CI_Controller {
                     'total_salary'          => $netAmount,
                     'total_working_minutes' => $worhour,
                     'working_period'        => $workingper,
+                    'net_total'        => $net_total,
                     'salary_month'          => $ab,
                     'advance_detuct'        => $adv_amount,
                 );
@@ -376,7 +383,6 @@ class Cpayroll extends CI_Controller {
                 );
 
                 if(!empty($aAmount->employee_id)){
-//                    dd($paymentData);
                     $this->db->insert('employee_salary_payment', $paymentData);
                     $this->db->insert('acc_transaction', $empsalgen);
                 }
@@ -462,7 +468,7 @@ class Cpayroll extends CI_Controller {
         $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
         $data["links"]   = $this->pagination->create_links();
         $data['emp_pay'] = $this->Payroll_model->emp_paymentView($config["per_page"], $page);
-//        var_dump($data['emp_pay']);
+//       var_dump($data['emp_pay']);
 //        exit;
         $content         = $this->parser->parse('payroll/paymentview', $data, true);
         $this->template->full_admin_html_view($content);
@@ -554,10 +560,13 @@ class Cpayroll extends CI_Controller {
     
     public function payslip($id = null){
 		$data['title']         = display('salary_slip');
-		$data['paymentdata']   = $this->Payroll_model->salary_paymentinfo($id);  
+		$data['paymentdata']   = $this->Payroll_model->salary_paymentinfo($id);
+//		var_dump($data['paymentdata'] );
+//		exit;
 		$data['addition']      = $this->Payroll_model->salary_addition_fields($data['paymentdata'][0]['employee_id']);
 		$data['deduction']     = $this->Payroll_model->salary_deduction_fields($data['paymentdata'][0]['employee_id']);
-		$data['amountinword'] = $this->numbertowords->convert_number(intval(str_replace(',', '', $data['paymentdata'][0]['total_salary'])));
+
+		$data['amountinword'] = $this->numbertowords->convert_number(intval(str_replace(',', '', $data['paymentdata'][0]['net_total'])));
 		$data['setting']     = $this->Payroll_model->setting();
 		$data['company']     = $this->Payroll_model->companyinfo();
         $content    = $this->parser->parse('payroll/payslip', $data, true);

@@ -103,7 +103,7 @@
                                 
                         <div class="form-group text-center">
                            
-                            <button type="submit" class="btn btn-success w-md m-b-5"><?php echo display('check_in') ?></button>
+                            <button type="submit" class="btn btn-success w-md m-b-5">Save</button>
                         </div>
                     <?php echo form_close() ?>
 

@@ -94,7 +94,7 @@
                         			 	
                                     <thead>
                                         <tr class="employee">
-                                            <th class="name text-center border-bottom" colspan="2"><?php echo display('earnings'); ?></th>
+                                            <th class="name text-center border-bottom" colspan="2">Income</th>
                                             
                                            
                                         </tr>
@@ -122,23 +122,45 @@
                                              <td class="value text-left"><?php echo  display('total_addition')?></td>
                                             <td class="value"><b><?php echo number_format($totalAddition+$basicsal,2); ?></b></td>
                                         </tr>
+
+                                        <tr class="entry nti">
+                                            <td class="value text-left">Absence Pay Cut</td>
+                                            <td class="value"><b><?php echo number_format(($totalAddition+$basicsal)- ($paymentdata[0]['net_total'] + $paymentdata[0]['advance_detuct']) ,2); ?></b></td>
+                                        </tr>
+
+                                        <tr class="entry">
+                                            <td class="value">Total Salary</td>
+                                            <td class="value"><div><?php if($paymentdata[0]['salarytype'] == 1){ echo $basicsal = $paymentdata[0]['basic']*$paymentdata[0]['total_working_minutes'];}else{echo  $paymentdata[0]['net_total'] + $paymentdata[0]['advance_detuct'] ;}?></div></td>
+
+                                        </tr>
+
+                                        <tr class="entry">
+                                            <td class="value">Advance Amount</td>
+                                            <td class="value"><div><?php if($paymentdata[0]['salarytype'] == 1){ echo $basicsal = $paymentdata[0]['basic']*$paymentdata[0]['total_working_minutes'];}else{echo $paymentdata[0]['advance_detuct'] ;}?></div></td>
+
+                                        </tr>
+                                        <tr class="entry">
+                                            <td class="value">Net Salary</td>
+                                            <td class="value"><div><?php if($paymentdata[0]['salarytype'] == 1){ echo $basicsal = $paymentdata[0]['basic']*$paymentdata[0]['total_working_minutes'];}else{echo $paymentdata[0]['net_total'] ;}?></div></td>
+
+                                        </tr>
                               
                                       
                                     </tbody>
                                 </table></td>
                         			<td  class="right-panel">  <table class="" width="100%">
-                        				
-                                  
-                        			 	
+
+
+
                                     <thead>
                                         <tr class="employee">
                                             <th class="name text-center border-bottom" colspan="2"><?php echo display('deduction'); ?></th>
-                                            
-                                           
+
+
                                         </tr>
                                     </thead>
                                     <tbody class="details">
-                                      <?php 
+                                      <?php
                                       $totalDeduction = 0;
                                       foreach($deduction as $deductions){?>
                                         <tr class="entry">
@@ -146,7 +168,7 @@
                                             <td class="value"><div><?php echo  $basicsal*($deductions->amount)/100;
                                             $totalDeduction +=$basicsal*($deductions->amount)/100;
                                             ?></div></td>
-                                           
+
                                         </tr>
                                     <?php }?>
                                     <?php $gross = $totalAddition+($basicsal-$totalDeduction);
@@ -157,17 +179,17 @@
                                             <td class="value"><div><?php  $tax = $gross - intval(str_replace(',', '', $paymentdata[0]['total_salary']));
                                             echo $totaltax = number_format($tax,2);
                                             ?></div></td>
-                                           
+
                                         </tr>
                                 <?php }?>
-                                       
+
                                          <tr class="entry nti">
                                              <td class="value text-left"><?php echo  display('total_deduction')?></td>
                                             <td class="value"><b><?php echo number_format($totalDeduction+(!empty($totaltax)?$totaltax:0),2); ?></b></td>
                                         </tr>
-                                        
+
                                     </tbody>
-                                
+
                                 </table></td>
                         		</tr>
 
@@ -186,8 +208,8 @@
                                       
                                             <tr class="details">
                                             	<tbody class="nti">
-                                                <th class="value"><?php echo display('net_salary'); ?> : <?php echo display('in_word').':'.$amountinword; ?></th>
-                                                <td class="value text-right"><b><?php echo  $paymentdata[0]['total_salary']?></b> </td>
+                                                <th class="value"><?php echo display('net_total'); ?> : <?php echo display('in_word').':'.$amountinword; ?></th>
+                                                <td class="value text-right"><b><?php echo  $paymentdata[0]['net_total']?></b> </td>
                                                 </tbody>
                                             </tr>
                                            	 

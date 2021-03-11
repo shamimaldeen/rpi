@@ -57,8 +57,9 @@
                             <th><?php echo display('salary_month') ?></th>
                             <th><?php echo display('advance') ?></th>
                             <th><?php echo display('total_salary') ?></th>
-                            <th><?php echo display('total_working_minutes') ?></th>
+<!--                            <th>--><?php //echo display('total_working_minutes') ?><!--</th>-->
                             <th><?php echo display('working_period') ?></th>
+                            <th>Net Amount</th>
                             <th><?php echo display('payment_type') ?></th>
                             <th><?php echo display('payment_date') ?></th>
                             <th><?php echo display('paid_by') ?></th>
@@ -75,8 +76,9 @@
                                     <td><?php echo html_escape($que->salary_month); ?></td>
                                     <td><?php echo html_escape($que->advance_detuct); ?></td>
                                     <td><?php echo html_escape($que->total_salary-$que->advance_detuct); ?></td>
-                                    <td><?php echo html_escape($que->total_working_minutes); ?></td>
+<!--                                    <td>--><?php //echo html_escape($que->total_working_minutes); ?><!--</td>-->
                                     <td><?php echo html_escape($que->working_period); ?></td>
+                                    <td><?php echo html_escape($que->net_total); ?></td>
                                     <td><?php echo html_escape($que->payment_due); ?></td>
                                     <td><?php echo html_escape($que->payment_date); ?></td>
                                     <td><?php echo html_escape($que->paid_by); ?></td>
@@ -86,7 +88,7 @@
                                             <a href='<?php echo base_url("Cpayroll/payslip/$que->emp_sal_pay_id") ?>' class='btn btn-info btn-xs'><?php echo display('payslip') ?></a>       
                                        <?php } 
                                         else {?>
-                                         <a href='#' class='btn btn-success btn-xs' onclick='Payment(<?php echo $que->emp_sal_pay_id; ?>,"<?php echo $que->employee_id; ?>","<?php echo $que->total_salary; ?>","<?php echo $que->total_working_minutes; ?>","<?php echo $que->working_period; ?>","<?php echo $que->salary_month; ?>")'><?php echo display('pay_now') ?></a>
+                                         <a href='#' class='btn btn-success btn-xs' onclick='Payment(<?php echo $que->emp_sal_pay_id; ?>,"<?php echo $que->employee_id; ?>","<?php echo $que->net_total; ?>","<?php echo $que->total_working_minutes; ?>","<?php echo $que->working_period; ?>","<?php echo $que->salary_month; ?>")'><?php echo display('pay_now') ?></a>
                                       <?php  }
                                         ?>
                                     </td>

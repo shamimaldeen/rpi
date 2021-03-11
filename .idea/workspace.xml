@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="559418bb-ccfc-4f02-969b-072aa885d4ae" name="Default Changelist" comment="" />
+    <list default="true" id="559418bb-ccfc-4f02-969b-072aa885d4ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Cpayroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Cpayroll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/attendance/checkin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/attendance/checkin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/hr/employee_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/hr/employee_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/payroll/paymentview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/payroll/paymentview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/payroll/payslip.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/payroll/payslip.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +21,19 @@
       <executable />
     </execution>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="rpi" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/install/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pNHfVsW5P2Lhu8VqEv6BbrmiEo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myshop" />
   </component>
@@ -48,7 +64,8 @@
       <workItem from="1615274355714" duration="15465000" />
       <workItem from="1615311586173" duration="6388000" />
       <workItem from="1615351575274" duration="20045000" />
-      <workItem from="1615388082504" duration="339000" />
+      <workItem from="1615388082504" duration="3404000" />
+      <workItem from="1615437819808" duration="18577000" />
     </task>
     <servers />
   </component>
@@ -60,10 +77,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615380321214" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1615388082646">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1615437821194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615388082646" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615437821194" />
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1615463432624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1615463432624" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615271179823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
