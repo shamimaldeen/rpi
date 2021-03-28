@@ -156,11 +156,11 @@ class Settings extends CI_Model {
     return false;
 }
 
-    public function advance_salary_list_employee($per_page, $limit) {
+    public function advance_salary_list_employee() {
         $this->db->select('salary_advance.*, employee_history.first_name, employee_history.last_name,employee_history.id as emp_id');
         $this->db->from('salary_advance');
         $this->db->join('employee_history', 'employee_history.id = salary_advance.employee_id', 'left');
-        $this->db->limit($per_page, $limit);
+        //$this->db->limit($per_page, $limit);
        // $this->db->group_by('salary_advance.id');
         $this->db->group_by('salary_advance.employee_id');
         $query = $this->db->get();

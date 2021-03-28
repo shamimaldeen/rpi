@@ -2,13 +2,188 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559418bb-ccfc-4f02-969b-072aa885d4ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Cpayroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Cpayroll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/attendance/checkin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/attendance/checkin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/hr/employee_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/hr/employee_form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/payroll/paymentview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/payroll/paymentview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/payroll/payslip.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/payroll/payslip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID005b6c57d2q06eqagl7ps5hsee1fst8u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID06uh29f44j7b1rl1girkgobaig8jn4df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID138fjrr5a7uec7a3n1up75c1mske56tb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID146mtqhqu2d8oc34g9opircr8d3cv4oo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID1852pmkiuj7apija2ir2bssl7tb0smj8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID1r2apm789l4u7pvgl5uecmgqfv3cqmbv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID1r8bmmgj0kjr1qcjlkjgnm8jr5oisaq0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID1vl518hio70v186l7rold17gi928p36o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID28v0abngcd3blseolp6ugh8guadofejk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2eui055ail0t8o4687mf37ck8igiogv2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2gqi2lkd5af3k8kpbr27odf0jqi73n59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2h6tobnna0ceiqt3p45ktg5cvai6156l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2pbvg33ji3i7uv2n0ib1ks05godrr24k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2thmo4cuiv9ot290l169roa48fd03em5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID2v90i7g1l3dc64r3mspi8ug74tpuvu2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID34qm3oqtj7hc87jn4pol6kq845r4460b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID3biq2jf0m5bv9mr8b5kveq4kmoimg4l6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID3fatncnq298gkt032b0d1ih0gn8aake2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID3q6v91kqm7dd54720sooopb12eg11v2i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID45p3trv8gv00cr6h6hsfg27ssfto6gkr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4gn0380isb3864k57dmjsbrci8rq3k5l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4h3u5ano5fqsfec8ke1d1q605vnnfc4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4o4vl3aeg9n85kabta5gk8j4i62m4glu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4p48jomq03toqlv5e882eokk46t4ksbu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4pj1j9tea4djaf693kc89cue8bseaikk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID4so6og3mt679qk00d27h1deetom8kh5j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID5173ktnot53hl9id42i4i5b1b6hd8cuq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID56077c03067d1bua1r390hnoovju6p2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID570jo09hads46stgo2mdsa4d6bqcgcff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID5jmnpc46gs7vihc75d7fqkhbjfmfocrs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID5jrsp9dk3rig5u6oppjr0jpk3b28bgu1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID5qjiqsl0ft5akca3mu3meh1en7jhcb0s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID658o0goltl396rb2g5m7ea9vsffnvkkd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID6ihvsdo8b29elout2obmdtadrpbtqqum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID6m16e4riovpbtgnc1vcufkq7iblkd2qb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID6ub40jhnbiqpumk4c1ph3h1l2lu8a2pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID7689eo99je0vjbl99n0c91qpbnbjicod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID7bvumj1jar9h9nu08tb6en8d4v7rv77a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID7ige4igciidvlne9hh1el6n66iq92o69" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID7mb86kkjrngc9q8vv8mv1th8e0t51u73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID7r7i6lvu55ou7t062npdvanf9dfl07e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID8c0c1q0cia0r6btljksgn86na6i2e0it" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID8tk0o91vpij1qackkg02k9nh3faekvfm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID90t6sab14ja06dm8504v4udr0b0s70p0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID94eot9ot6qk6g88k73130i1ok4j6b7p5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID94lmnrfdkua84i82jum8alilk9172v9g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID971fergvqvm13tpgihj828d9tlfuqo45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID98rtihuo5rshg9fekbsr1ohbh6bfhaok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID99k1ak4j99skm10lppe7qi7g9o830jqg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9bgkhdahd41mmh3dnpnsb9hhooofstkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9col3g8kqpen1m55315fa2d32bj0olau" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9jdklqbj6r57m1hvjtin1ebl0033qu9g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9kno6bnpmcotrli6n4hpms7de4ko3nhb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9kuvc9iro0noj3dcd5d97sapplrf655n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9mgqstgq974vemh6csu1v3ianmi4p7f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSID9pb831fpc5q28k0ruel5kf1efji05ft7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDa3of51s7kp28v513dku1t2denmmhu0eg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDa9p2pchg6gpj55jtul2a2uhhij0elqsr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDa9v99o51380j2aqbttufn0ctroriime0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDaf3vl775kgi1n625scvml28n328d8jvv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDah074r3cqemd5elkklhrj2el03kqfi8a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDanqav3m4h61iagatafsbdiesdl4d1koj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDb46eu5lv4kk8ksg6s8tk556uns4go4ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDb64ulst1uvv6toc0gbcjv5f1eb59rkr6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDbc3rpvqaql6bdhf8ht8qlocpi1g1g8jm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDbfto982v25jqa4ndi8e84i9dabs0fdtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDbl2c9dlej0oouveu06gg816237lvo5k2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDbqvg1qdfabj2svpl1k7emlar2tnens9m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDc2i0fcudbbg9lda41rdmip0mbl463hnh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDcbcho1cp4qpsgdev3h4o1btqqi79fhcj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDcdsccg0gh15cmckt2kuc3o1s54n5r4ju" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDcoa8lu0u10kgpkifok51pld1lkifcaem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDcsba9hvnqg5tipthcnqn0vd7lh5qvg0m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDd5403vgsq73lj6qchmrmjb5gitett8ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDd58c1k6p652aegf4tjniner7vr7aeaj7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDd96qgb4rae1buut6h7h6ljujj0m005k6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDdmdjpf8ronkh9ttl1hi65uie81m5v8i4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDdtk8djicrk4f58n4jbhh8p8p1uem0b8r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDdv947nmmptncbpikqlvs3rl85jacqlv3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDe24crk6a4auk1m378tbnug50kca70tsb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDeggm5s0osp8fdqdsbnar1ea56smq8imn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDetfisa75emrtclbfu8toke13uf8j6hub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDeuro0c707b7bu68k4qr4aft4ufrfa8rt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDf752lj5s4uflvapc2mjah3euvar3vltj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDfa2rm6o4hcgeke4efv0odb7imsvoml7u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDfj79esf48c5rcs0unmbbgn0i4s1453au" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDfjhe07q160kul9gpq7l1ie7ia5qkl6oq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDforcerrk3b70vhj0tg1pag02tv3nkea9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDfprc2uvengol0mt62sk489u5dprmql6v" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDfsepiif4o3gfj3ue4i0l5q6jrj64ps8f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgctos7oqbp739gsqkb3jkkn3f5ee3hrs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgd2r4j0bdroq8g8r9ga2bn8e4imhjhkk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgi4pnj0chhsqo39a12lidaq0dd8jq9d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgk9cl4t848unimiqr7n4cknl1vkpe8ga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgltlvhv7rfovese4vmaqsor5p0hg5l42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgr7trckfvf7phdfg0tqiq0l676e255cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDgu299j65tcp6949mt5c7q00fahq447bu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDh0ktphjfbhl29s3fo00e469dsndrjbmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDh1610c6egfjhi2a7dl1l7l3jtqu44u4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDhb22sre35evotho382jplslqphoh1cs8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDhipt6st5vd6o7rm20q82vv3kdksabd3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDhmkbob3v6sbumhbu97k7lr42leh6acsj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDhrletd3c08crirad2idhljmcsfurvlt0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDhvgba23l77e6uhkoh38u4sgtr0hgul57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDidjbgm5gbc7j58pn835ned4sagk3pag6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDidqmv2qioq4esp62asgg88jecmrda9gk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDir086rpcgeu8clqh2tqk3fsjo0asr641" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDit6kutj0qjfqqkncoifb4a8bch3rm5n3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDitpuk2ficje49in0ejvfp26163sqkri4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDiua9bgkm6khjvn8vkd2dm6d05sg86ld3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDj0jt9otdgtprsvd5sv7adp7iluvi32v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDj0lhv622amdnuh2uehvm3jbv0msg3c30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDj1udu0qipc2tgnqcie42r7mvksj32en8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDj54hj2m1ufg3j6eponbvkcg4vg1ljks5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDj6oblufpna10234u9i237hp87li4gl96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDjcl4d3smoc0946vjlb90bleqobvlven9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDjn44lv6t3evavi64167lqlv7nnhcnp87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDjskqc1ghcrt1g4chefh44acb0g5r1drq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDk0f6j2o5l2bq2n2mv5lst9f6r4nkkfdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDkasc3tb6b6o28qt7qh8ll6q68v5qgrs4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDkiqp69nanv8t4s6au50p1is81c46c3ml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDkitjqqjgd5d2a24c1fr0cco16ilom6sr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDle74n5oajg1pd4hfu4145fmg0kctihlu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDlk1n3dftgbu0qgjhjgs8opk8m7qo4cim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDlme22cblf0dku22gm04qnksqepo4if54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDlngdujnrm0d2dppivkdpe7f1tm3qo3da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDlsnf7np0mfquc5m5k84m1v06fqp80hqn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDlvt4j22a1r55beek9mvpv9at2trpnvh7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDmkficf9ij671e6lju8agavopouq79dhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDmo0jkn42hh2hlsupt1g8a9m3gjnfcas7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDmr21rrkkaapt520j000l0hv3qk029itq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDmtm42o1lpacf7enb77d1bc5rf18v1oct" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDmv8nn31ckg2nbbm1e6p415luhfhjeubf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDn7a04vq0r894i9llc90mjpsht5d3o4hn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDn9rrfc3ppsh2jlh121riq5tfi5q5sqhj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDnn7u52qune04n5jbsh6qh0fm7iu4ef3h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDnrafm43nge0b90snhp12g3sk6lkvnh97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDnugvje63fftu43o28mtrnnco05sv4rku" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDo1p9c1qhdk85fla505betkgp1imjl84u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDo1tb5637uri6jbpal2vshs0hedk803al" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDo5hd2fi7hv4r2fgl2lvnklus7fcdrf3m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDoiif37s68phm1a9vj2atak45l3739q61" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDonhrs5nt70n6j8qg0dengc57572vq9df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDord47vni7g1714m2d8j9k2o8chtl6v03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDp832hqo3klqhsitkem3duhrqlc1r7alr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDpdsmlq3g4uj2ec82p9t1e41ebbsorbjt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDpe18a55v81391a2t96ealcjjeq3h8ct3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDpmbic7tqfljtu31cagqi8fn8v863fsn6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDpntrl4v2t2ncst8ertvbp1du2rsmru0p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDps75llkmt9oqofvqihnuta83v3ksqjn7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDq92sh2scb6u57megpb4830tegu1pueg1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqa9v095umr9o4dcbj8jqtpmidnev0dph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqbebk73tsu1h1utufstf2o0tln3ccb7m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqeh61mionlncoi32m0is9914lr0h4626" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqjj6qklg0npn5168vqovcotmbbtj1f44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqs51etdg1m9n2hpl393vg8meieed07bm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDqt6utvc26jvhp6aoi62ju5igd8k10c0g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDr0j1m4f8ii0pgfodbj4bhi1rk88hm67b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDrj2odjr22iicub579qka5g86gt6ssnnp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDrl3rqr8971fhkpf3brd0imjfl3ijce1u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDrqpippdob4jtc8h61ussdev3muo9cd4k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDrve5b2u9408154t3phqmbb7q7ea1hhu1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDsbovchattk2ap5utseescg2b9qra89dh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDsd5n6ls6dq5nrdof08ln7upen1uj6jeo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDse9nrlc0flknneu4c5bopp7ilh3n7kah" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDskfed24t7f9vrvqtn7pmb6gf6kh3ok2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDsolq745sa7g12m1kf1b6r1937jp1km7i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDsq53aveg4lmvkqjh8ht3cmrstv5qdovn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDt63pqi8j6ap46i1dbilumdvhsu99ck5c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDtle42qdf9hfgq4jvpoaei6cfcb1q0sgq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDtsamdfhju8fpqcrdpmiudrg5vtokbicb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDulp45hrbrli7gnfem0cqsfhrjamlbkpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDuu1ien93khpil83sjgktho50iuik9ts5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDuvqtckdluup5717vvlgudpltb2u7f1ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDv0vq5js7dsu290ff3a98ne1esn1qdhep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDv1hm387ifg6pb73psk3u3nhbr5sqlvje" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDv5ad8cc00rv2rl7d8t2vvi3bcoc86hpo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/ci_sessions/PHPSESSIDv8vgnarkhqnv41dsf7ava799tca03kke" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/libraries/Lsettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/libraries/Lsettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/invoice/invoice_html_manual.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/invoice/invoice_html_manual.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +218,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +240,10 @@
       <workItem from="1615311586173" duration="6388000" />
       <workItem from="1615351575274" duration="20045000" />
       <workItem from="1615388082504" duration="3404000" />
-      <workItem from="1615437819808" duration="18577000" />
+      <workItem from="1615437819808" duration="19379000" />
+      <workItem from="1615613045254" duration="1126000" />
+      <workItem from="1616650054159" duration="1000000" />
+      <workItem from="1616913772296" duration="4774000" />
     </task>
     <servers />
   </component>
@@ -73,18 +251,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1615380321214">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1615613146800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615380321214" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615613146800" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1615437821194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615437821194" />
-    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1615463432624">
+    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1615613916787">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1615463432624" />
+    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1615613916787" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615271179823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

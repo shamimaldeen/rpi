@@ -23,7 +23,7 @@ class Lsettings {
         $CI = & get_instance();
         $CI->load->model('Settings');
         $as_list = $CI->Settings->advance_salary_list_limit($per_page, $limit);
-        $list = $CI->Settings->advance_salary_list_employee($per_page, $limit);
+        $list = $CI->Settings->advance_salary_list_employee();
         $currency_details = $CI->Web_settings->retrieve_setting_editdata();
         $data = array(
             'title'       => display('manage_advance_salary'),
